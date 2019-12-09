@@ -1,0 +1,19 @@
+<!-- 双向数据绑定 靠的是表单 -->
+<div id="app">
+    <input type="text" v-model="message.a">
+    <input v-model="c" />
+    {{message.a}} {{b}}
+</div>
+<script src="./js/compiler.js"></script>
+<script src="./js/vue-like.js"></script>
+<script>
+    // 我们的数据一般都挂载在vm上
+    let vm = new MVVM({
+        el: '#app',
+        data: {
+            message: { a: 'j1111w' },
+            b: 'fuck',
+            c: "cc111cc"
+        }
+    })
+</script>
