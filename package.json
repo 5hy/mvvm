@@ -1,0 +1,11 @@
+{
+  "name": "wue-like",
+  "version": "1.0.0",
+  "description": "create a wue-like for practicing",
+  "main": "./js/entry",
+  "scripts": {
+    "start": "webpack --entry ./js/entry.js --o bundle.js --watch"
+  },
+  "author": "",
+  "license": "ISC"
+}
